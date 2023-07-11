@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Currency Converter</title>
+</head>
+<body>
+    <style>
+        body{
+            text-align: center;
+            background-image: url(./colorful_world_hd_-wallpaper-1366x768.jpg );
+            /* background-repeat: no-repeat; */
+            background-size: cover;
+            width: 100%;
+        }
+        h1{
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            font-size: 50px;
+        }
+        label{
+            font-size: 30px;
+            color: white;
+        }
+        input{
+            padding: 10px;
+            width: 20%;
+        }
+        button{
+            padding: 10px;
+            font-size: 20px;
+            background-color: goldenrod;
+            border: none;
+            width: 10%;
+        }
+        #result{
+            font-size: 50px;
+            color: white;
+        }
+        .con{
+            margin: 250px;
+        }
+        @media screen  and (max-width:440px) {
+            body{
+            text-align: center;
+            background-image: url(./colorful_world_hd_-wallpaper-1366x768.jpg );
+            /* background-repeat: no-repeat; */
+            background-size: cover;
+            width: 100%;
+        }
+        h1{
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            font-size: 1300px;
+        }
+        label{
+            font-size: 30px;
+            color: white;
+        }
+        input{
+            padding: 10px;
+            width: 20%;
+        }
+        button{
+            padding: 10px;
+            font-size: 20px;
+            background-color: goldenrod;
+            border: none;
+            width: 10%;
+        }
+        #result{
+            font-size: 50px;
+            color: white;
+        }
+        }
+    </style>
+    <div class="con">
+  <h1>Currency Converter</h1>
+  <form id="currencyForm">
+    <label for="amount">Enter amount in USD:</label>
+    <input type="number" id="amount" name="amount" required>
+    <button type="submit">Convert</button>
+  </form>
+  <p id="result"></p>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
